@@ -1,0 +1,48 @@
+body {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    font-family: 'Georgia', serif;
+}
+
+.bg-dark, .accordion-item, .accordion-body, .card, .navbar {
+    background-color: #000000 !important;
+    border: none !important;
+}
+
+.navbar-nav .nav-link.active, h1, h2 {
+    color: #b32d38 !important; /* Um vinho mais vivo para o texto destacar no preto */
+}
+
+.btn-outline-success, .btn-primary {
+    background-color: #58111a !important; /* Vinho Sombrio de fundo */
+    color: #ffffff !important;
+    border: 1px solid #58111a !important;
+    border-radius: 0px !important; /* Bordas retas da referência */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.btn-outline-success:hover, .btn-primary:hover {
+    background-color: #b32d38 !important;
+    border-color: #b32d38 !important;
+}
+
+img, .carousel-item img {
+    filter: grayscale(100%) brightness(50%);
+    border-radius: 0px !important;
+    height: 75vh;
+    object-fit: cover;
+}
+
+input.form-control {
+    background-color: #0b0b0b !important;
+    border: 1px solid #58111a !important;
+    color: #fff !important;
+    border-radius: 0px !important;
+}
+
+section, #sobre, #projetos, #contato {
+    border-bottom: 1px solid #3a0b11;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
