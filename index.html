@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vértice Studio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">Vértice Studio</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="#"
+                  >Início</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#sobre">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#projetos">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#contato">Contato</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Pesquisar"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-success bg-light text-dark"
+                type="submit"
+              >
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./Imagens/Imagem1.jpg"
+              class="d-block w-100"
+              alt="Tatuagem no pescoço"
+            />
+          </div>
+           <div class="carousel-item">
+            <img
+            src="./Imagens/Imagem3.jpg"
+            class="d-block w-100"
+              alt="Piercing tranversal na orelha"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./Imagens/Imagem2.jpg"
+              class="d-block w-100"
+              alt="Blackout no braço"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+            src="./Imagens/Imagem4.jpg"
+            class="d-block w-100"
+              alt="piercings na boca"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+
+      <div id="sobre">
+        <section class="py-5">
+          <div class="container">
+            <div class="row align-items-center gx-4">
+              <div class="col-md-5">
+                <div class="ms-md-2 ms-lg-5">
+                  <img
+                    class="img-fluid rounded-3"
+                    src="./Imagens/Imagem5.jpg"
+                  />
+                </div>
+              </div>
+              <div class="col-md-6 offset-md-1">
+                <div class="ms-md-2 ms-lg-5">
+                  <h2 class="display-5 fw-bold">Sobre Nós</h2>
+                  <p class="lead">
+                    Não somos só um estúdio de tatuagem, somos um ambiente de expressão 
+                    e arte onde nos permitimos ser quem somos e quem queremos ser.
+                  </p>
+                  <p class="lead mb-0">
+                    Aproveite nosso espaço aconchegante e que busca te fazer se sentir 
+                    incrível.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <h1 class="text-center">Nossos Projetos</h1>
+      <section id="projetos">
+        <div class="container py-5">
+          <div class="row row-cols-1 row-cols-md-3 g-5">
+            <div class="col">
+              <div class="Notas">
+                <img
+                  src="Imagens/Imagem7.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Com o que trabalhamos?</h5>
+                  <p class="card-text">
+                    Trabalhamos com tatuagens e piercings corporais.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="Notas">
+                <img
+                  src="./Imagens/Imagem6.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Com quem trabalhamos?</h5>
+                  <p class="card-text">
+                    Temos uma alta gama de profissionais.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="Notas">
+                <img
+                  src="./Imagens/Imagem8.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Bem...</h5>
+                  <p class="card-text">
+                   O que tá esperando? Olhando por tanto tempo e ainda não nos contatou?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div id="contato">
+        <div class="container py-5">
+          <h1 class="text-center">Entre em Contato</h1>
+          <form>
+            <div class="mb-3 mt-3">
+              <label for="email" class="form-label">Nome:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="email"
+                placeholder="Enter name"
+                name="email"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="pwd" class="form-label">Email:</label>
+              <input
+                type="email"
+                class="form-control"
+                id="pwd"
+                placeholder="Enter email"
+                name="pswd"
+              />
+            </div>
+            <div class="form-check mb-3">
+              <label class="form-check-label">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="remember"
+                />
+                Lembre-me
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+
+<footer class="bg-dark text-light">
+    <div class="text-center p-3">
+    © 2026 Copyright:
+      <a class="text-light" href="https://mdbootstrap.com/">
+      MDBootstrap.com
+    </a>
+  </div>
+</footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
